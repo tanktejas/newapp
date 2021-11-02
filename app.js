@@ -1,7 +1,7 @@
 const express=require('express');
 const ejs=require('ejs');
 const exp=express();
-const port=process.env.PORT | 3000;
+const port=process.env.PORT || 3000;
 const router=require('./routers/router');
 
 exp.use(router);
