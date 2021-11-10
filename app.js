@@ -7,7 +7,7 @@ const router=require('./routers/router');
 exp.use(router);
 exp.use(express.static('views'));
 exp.set('view engne','ejs');
-
+  
 exp.get('/',(req,res)=>{
   res.render('index.ejs');
 });  
